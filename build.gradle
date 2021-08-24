@@ -10,8 +10,8 @@ def junitVersion = "5.7.2"
 
 dependencies {
     testImplementation(
-            "io.rest-assured:rest-assured:4.3.1",
-            "org.assertj:assertj-core:3.19.0",
+            'io.rest-assured:rest-assured:4.4.0',
+            'org.assertj:assertj-core:3.20.2',
             "org.junit.jupiter:junit-jupiter-api:$junitVersion")
     testRuntimeOnly "org.junit.jupiter:junit-jupiter-engine:$junitVersion"
 }
